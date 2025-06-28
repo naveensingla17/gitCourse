@@ -66,3 +66,12 @@ drwxr-xr-x. 2 root root 16384 Jun 28 11:18 hooks
 -rw-r--r--. 1 root root    92 Jun 28 11:18 config
 drwxr-xr-x. 2 root root     6 Jun 28 11:18 branches
 -rw-r--r--. 1 root root    23 Jun 28 11:18 HEAD
+
+Step 3: Below configuration steps are required to track who is making changes.
+
+[root@ip-172-31-31-109 ~]# git config --global user.name "Naveen"
+[root@ip-172-31-31-109 ~]# git config --global user.email "naveen@gmail.com"
+[root@ip-172-31-31-109 ~]# git config --list
+user.name=Naveen
+user.email=naveen@gmail.com
+
