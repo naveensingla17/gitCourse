@@ -1,0 +1,238 @@
+git  --> Source code management s/w
+
+github / gitlab / bitbucket  --->  Storage Directory which is type of Directory / Folder on Remote end (online)
+-------------------------------------------------------
+
+	Source Code Mgmt  (yaml , java, json, php, mysql)
+	/				\
+ CVCS 				DVCS [Distributed Version Control System] 	
+ (Centrelized 
+ Version 
+ Control System)
+ 
+------------------------------------------------------
+
+yum install git -y
+
+git --version
+
+cd  /opt/
+
+mkdir myrepo
+
+cd /opt/myrepo
+
+mkdir project1
+
+cd project1
+
+pwd
+		Output --->    /opt/myrepo/project1
+
+git init
+
+git config --global user.name "Ekam"
+
+git config --global user.email "ekam@gmail.com"
+
+git config --list
+ 
+git status 
+
+echo "hello world"  > index.html
+
+echo "my address is"  > contactus.html
+
+git status 
+
+git commit -m "I have added few files for new project of CX ...."
+
+git status 
+
+echo " Hello new AI world "  >>  index.html 
+
+git status 
+
+git add  index.html
+
+git restore index.html 
+
+
+echo "user1: India@123 "  >  password-info.txt
+
+git add password-info.txt				#  Stage Area 
+
+git commit -m "My first passowrd file "   #  Commit area of local repo
+
+git status 
+
+	output :
+		---------------------
+		  On branch master
+          nothing to commit, working tree clean
+		----------------------
+
+rm -f  password-info.txt
+
+git add password-info.txt
+
+git commit -m  "Deleted password-info.txt"
+
+git status 
+----------------------------------------------------------
+
+how to create new branch  ?
+-----------------------------------
+git branch feature1
+
+git branch 
+
+git checkout feature1
+
+		OR 
+
+git checkout -b feature2 
+---------------------------------
+git status 
+----------------------------------
+How to list all branches of git (Local)
+
+	git branch 
+
+How to checkout in new / another branch ?
+
+	git checkout <branch-name>
+	
+	git checkout feature1
+	
+	git status 
+
+---------------------------------------------
+How to see logs / commit with id ( To help or track files info in branches) :
+
+git log 
+
+git log --oneline			#(branch wise log info will print)
+
+-----------------------------------------------
+Download and install Git scm  tool for windows :
+
+https://git-scm.com/downloads
+
+------------------------------------------------
+cd /opt/
+
+mkdir myrepo 
+
+cd myrepo
+
+git clone https://github.com/cdtsbikaner/maydevopsbatch.git
+
+ls -ltr 
+
+cd maydevopsbatch
+
+ls -ltr 
+
+
+Show all branches on Remote end 
+--------------------------------
+git remote -v
+
+
+----------------------------------------------
+
+
+How to create new branch in git ?
+
+	git branch feature1 
+	
+	git branch -a 
+	
+	git checkout feature1
+	
+		 or
+		 
+	git checkout -b feature1  
+	
+	
+
+How to get access in branch ?
+
+	git checkout <Branch  Name>
+	
+How to check git log ?
+
+	git log
+	
+	git log --oneline 
+	
+	git reflog 
+	
+	git log -1  
+	
+Which alog use for create hash in Commit ID  which is 40 alphabets 
+
+We can check git log and show data as diff 
+
+	git log 
+		
+		
+	git show   <Commit-ID>
+
+Test on remote repo  :
+	ssh-keygen  -t rsa 
+	
+		or 
+	ssh-keygen -t rsa -P  ''
+		
+	cat  /root/.ssh/id_rsa.pub
+	
+paste under the remote repo of github.com 
+	
+	ssh  -T git@github.com
+
+
+
+
+git remote add origin https://github.com/cdtsbikaner/maydevopsbatch.git
+
+git remote  -v
+
+If you are getting any issue / error while push / pull /fetch we can set origin variable :
+
+	git remote set-url origin   <GIT-hub/lab-Dir-Location>
+
+git clone 
+
+
+----------------------------------------------------------------
+
+Checkout to new branch with backup of current branch 
+
+ git checkout -b feature1
+ 
+ git status 
+ 
+ git branch 
+ 
+
+git clone  :   Clone remote (Github) repo at locally.
+		( Sometime only master branch clone from remote to local)
+
+	git clone https://github.com/cdtsbikaner/maydevopsbatch.git      ( For all students who dont have access  )
+	
+		if someone have added his / her key at my account (Github) 
+		
+this example for SSH access / URL path for registered user 
+		
+	git clone https://github.com/cdtsbikaner/maydevopsbatch.git
+	
+
+	git clone  -b  <BranchName>
+	
+	git clone --single-branch  <BranchName>
+	
+	git clone https://github.com/cdtsbikaner/maydevopsbatch.git    /opt/project1/
+	
+====================================================================

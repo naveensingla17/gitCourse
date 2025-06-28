@@ -1,0 +1,35 @@
+1)  yum install git  -y
+
+2)  git --version 
+
+3)  mkdir  -p  /opt/myrepo/myproject
+
+	cd /opt/myrepo/myproject
+	
+	git init  
+	
+    git config --global  user.name "Ekam"
+   
+    git config --global  user.email "ekam@gmail.com"
+ 
+    git config --list
+
+
+4) git status 
+
+5) echo "Hii" >  myfile1.txt
+
+6)  git status 
+
+7) git add myfile1.txt
+
+8)  git status
+
+    git commit -m "my first comment"  
+
+9)  git status  
+		
+10)   git log  --oneline
+
+
+------------------------------------
