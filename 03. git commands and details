@@ -14,11 +14,13 @@ git add -A
 
 // undo command to move back to working director i.e untracked
 git rm --cached
-git revert
-git restore
+git revert (local repo to workspace)
+git restore (Stage to workspace)
+
 
 //git checkout
 git checkout -b feat/CGC-0000/this-is-my-first-commit
+git checkout <commit id>   #if you want to switch to lower commit id and undo changes
 
 
 // git commmit
@@ -31,3 +33,5 @@ or git commit -m "feat(CW):CGC:0000 this is my first commit"
 git log
 git log --oneline
 git show <commit id>
+
+git reflog
