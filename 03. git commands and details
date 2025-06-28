@@ -34,4 +34,4 @@ git log
 git log --oneline
 git show <commit id>
 
-git reflog
+git reflog   # provides complete details where to where what done
