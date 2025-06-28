@@ -1,1 +1,8 @@
+// Linux
+yum install git -y 
 
+//ubuntu
+apt install git
+
+// git version
+git --version
