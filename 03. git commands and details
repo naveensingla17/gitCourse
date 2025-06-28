@@ -6,3 +6,14 @@ apt install git
 
 // git version
 git --version
+
+// git add --> to move file to stage area
+git add . ## all files
+git add filename
+git add -A
+
+// undo command to move back to working director i.e untracked
+git rm --cached
+git revert
+git restore
+
