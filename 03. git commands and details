@@ -17,3 +17,10 @@ git rm --cached
 git revert
 git restore
 
+// git commmit
+git commit -m "this is my first commit"
+or git commit -m "feat(CW):CGC:0000 this is my first commit"
+
+
+//git checkout
+git checkout -b feat/CGC-0000/this-is-my-first-commit
