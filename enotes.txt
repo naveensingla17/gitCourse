@@ -1,0 +1,47 @@
+Yesterday we done:
+---------------------------------------
+- git install setup on EC2 instance
+- git add / commit  
+- local repo check 
+- branches create
+- checkout between branches (Switch)
+- Git hub repo clone 
+- git push from local repo 
+- git log 
+	git log --oneline
+	
+---------------------------------------
+Windows -->  Git scm-bash 
+	    -->  Visual Studio sync with Git scm-bash 
+---------------------------------------
+git log --oneline  --decorate  --graph --all
+
+
+git clone	Yes
+git pull	YES 
+git push 	YES 
+git fetch 	No 
+
+git merge 		YES
+	conflict 	YES
+	
+
+git restore		-->  LR  (Stage -->  Workspace)
+git reset		-->  file + commit delete 
+		--soft    (File will come back to STAGE)
+		--mixed   (File will come back to Workspace )
+		--hard		( head will change and file and commit both deleted )
+---------------------------------------------------------------------------
+git revert		-->  git revert  ( Local Repo + Remote Repo )
+git stash 
+git rebase
+git cherry-pick
+pull request 
+----------------------
+
+
+https://goharbor.io/docs/2.0.0/install-config/
+
+https://letsencrypt.org/getting-started/
+
+https://certbot.eff.org/
