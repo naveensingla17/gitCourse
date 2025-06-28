@@ -1,1 +1,68 @@
+Step 1: mkdir -p /opt/mygitrepo/project1
+Step 2: git init
 
+[root@ip-172-31-31-109 project1]# ls -altr
+total 0
+drwxr-xr-x. 3 root root 22 Jun 28 11:15 ..
+drwxr-xr-x. 2 root root  6 Jun 28 11:15 .
+[root@ip-172-31-31-109 project1]# git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /opt/mygitrepo/project1/.git/
+[root@ip-172-31-31-109 project1]# ls -altr
+total 0
+drwxr-xr-x. 3 root root  22 Jun 28 11:15 ..
+drwxr-xr-x. 7 root root 119 Jun 28 11:18 .git
+drwxr-xr-x. 3 root root  18 Jun 28 11:18 .
+[root@ip-172-31-31-109 project1]# 
+
+// [root@ip-172-31-31-109 project1]# tree .git
+.git
+├── HEAD
+├── branches
+├── config
+├── description
+├── hooks
+│   ├── applypatch-msg.sample
+│   ├── commit-msg.sample
+│   ├── fsmonitor-watchman.sample
+│   ├── post-update.sample
+│   ├── pre-applypatch.sample
+│   ├── pre-commit.sample
+│   ├── pre-merge-commit.sample
+│   ├── pre-push.sample
+│   ├── pre-rebase.sample
+│   ├── pre-receive.sample
+│   ├── prepare-commit-msg.sample
+│   ├── push-to-checkout.sample
+│   ├── sendemail-validate.sample
+│   └── update.sample
+├── info
+│   └── exclude
+├── objects
+│   ├── info
+│   └── pack
+└── refs
+    ├── heads
+    └── tags
+
+9 directories, 18 files
+[root@ip-172-31-31-109 project1]# cd .git/
+[root@ip-172-31-31-109 .git]# ls -ltr
+total 28
+drwxr-xr-x. 4 root root    31 Jun 28 11:18 refs
+drwxr-xr-x. 4 root root    30 Jun 28 11:18 objects
+drwxr-xr-x. 2 root root    21 Jun 28 11:18 info
+drwxr-xr-x. 2 root root 16384 Jun 28 11:18 hooks
+-rw-r--r--. 1 root root    73 Jun 28 11:18 description
+-rw-r--r--. 1 root root    92 Jun 28 11:18 config
+drwxr-xr-x. 2 root root     6 Jun 28 11:18 branches
+-rw-r--r--. 1 root root    23 Jun 28 11:18 HEAD
