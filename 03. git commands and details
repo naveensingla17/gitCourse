@@ -43,3 +43,27 @@ git reflog   # provides complete details where to where what done
 
 
 // git clone
+
+
+//git pull
+
+//git push
+
+//git fetch
+
+//git revert
+
+//git restore
+
+//git reset
+  --soft
+  --mixed
+  --hard
+
+//git rebase
+
+//git cherry-pick
+
+
+//forking
+
