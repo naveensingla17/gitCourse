@@ -51,6 +51,10 @@ git reflog   # provides complete details where to where what done
 
 //git fetch
 
+//git merge
+      conflict
+
+
 //git revert
 
 //git restore
