@@ -27,7 +27,9 @@ git checkout <commit id>   #if you want to switch to lower commit id and undo ch
 git commit -m "this is my first commit"
 or git commit -m "feat(CW):CGC:0000 this is my first commit"
 
-git commit -am "this is my first commit"
+git commit -am "this is my first commit" --> add and commit in single command
+
+git commit -m "this is single file commit" <filename>
 
 
 
@@ -60,6 +62,7 @@ git reflog   # provides complete details where to where what done
 //git revert
 
 //git restore
+git restore --staged about.html
 
 //git reset
   --soft
