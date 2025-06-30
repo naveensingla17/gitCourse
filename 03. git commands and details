@@ -35,3 +35,11 @@ git log --oneline
 git show <commit id>
 
 git reflog   # provides complete details where to where what done
+
+// git ignore
+.gitignore    # has extension which is not allowed
+
+//git push
+
+
+// git clone
