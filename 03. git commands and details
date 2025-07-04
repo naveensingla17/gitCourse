@@ -7,20 +7,32 @@ apt install git
 // git version
 git --version
 
-// git add --> to move file to stage area
-git add . ## all files
-git add filename
-git add -A
+git config --global user.name "Naveen"
+git config --global user.email "naveen@gmail.com"
+git config --list
 
-// undo command to move back to working director i.e untracked
-git rm --cached
-git revert (local repo to workspace)
-git restore (Stage to workspace)
+===> working directory --> git add --> staging area --> git commit --> local repo --> git push --> remote repo --> git pull --> working directory
 
 
 //git checkout
 git checkout -b feat/CGC-0000/this-is-my-first-commit
 git checkout <commit id>   #if you want to switch to lower commit id and undo changes
+
+
+// git add --> to move file to stage area
+git add . ## all files
+git add filename
+git add -A
+git status
+
+// undo command to move back to working director i.e untracked
+git rm --cached
+git revert (local repo to workspace)
+git restore (Stage to workspace)
+git restore --staged <filename>
+
+git restore --> move file from staging to work space i.e after git addd
+whereas git revert --> moves file from local repo to work space i.e after git commit
 
 
 // git commmit
@@ -32,10 +44,16 @@ git commit -am "this is my first commit" --> add and commit in single command
 git commit -m "this is single file commit" <filename>
 
 
+// show all branched on remote end
+git remote -y
+git remote -v
+git remote set-url origin <git-hub/lsb-dir-location>
 
 // git log
 git log
 git log --oneline
+git log -1
+
 git show <commit id>
 
 git reflog   # provides complete details where to where what done
@@ -53,8 +71,9 @@ git reflog   # provides complete details where to where what done
 
 //git push
 
-//git fetch
-
+//git fetch vc git pull
+pull remote repo to local repo
+whereas git pull --> remote repo to working directory
 //git merge
       conflict
 
