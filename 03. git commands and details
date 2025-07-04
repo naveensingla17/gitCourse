@@ -55,6 +55,7 @@ git log --oneline
 git log -1
 
 git show <commit id>
+git show origin
 
 git reflog   # provides complete details where to where what done
 
@@ -77,6 +78,8 @@ whereas git pull --> remote repo to working directory
 //git merge
       conflict
 
+git branch -a
+git branch -r
 
 //git revert
 
@@ -89,6 +92,7 @@ git restore --staged about.html
   --hard
 
 //git rebase
+
 
 //git cherry-pick
 
