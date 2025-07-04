@@ -56,6 +56,9 @@ git log -1
 
 git show <commit id>
 git show origin
+git show-branch
+
+git remote show origin
 
 git reflog   # provides complete details where to where what done
 
