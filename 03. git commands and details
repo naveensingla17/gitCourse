@@ -47,7 +47,7 @@ git commit -m "this is single file commit" <filename>
 // show all branched on remote end
 git remote -y
 git remote -v
-git remote set-url origin <git-hub/lsb-dir-location>
+git remote set-url origin <git-hub/lsb-dir-location> # SSH path
 
 // git log
 git log
