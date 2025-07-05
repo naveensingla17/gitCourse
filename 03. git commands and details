@@ -81,6 +81,8 @@ whereas git pull --> remote repo to working directory
 //git merge
       conflict
 
+git merge --no-ff
+
 git branch -a
 git branch -r
 
