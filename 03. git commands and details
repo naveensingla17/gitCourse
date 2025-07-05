@@ -54,6 +54,8 @@ git log
 git log --oneline
 git log -1
 
+git log --oneline --decorate --graph --all
+
 git show <commit id>
 git show origin
 git show-branch
