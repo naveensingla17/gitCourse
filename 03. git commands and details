@@ -24,12 +24,17 @@ git add . ## all files
 git add filename
 git add -A
 git status
+git status -u
 
 // undo command to move back to working director i.e untracked
 git rm --cached
 git revert (local repo to workspace)
 git restore (Stage to workspace)
+
 git restore --staged <filename>
+
+git revert <commit id>
+git revert --abort
 
 git restore --> move file from staging to work space i.e after git addd
 whereas git revert --> moves file from local repo to work space i.e after git commit
@@ -95,8 +100,13 @@ git restore --staged about.html
 
 //git reset
   --soft
-  --mixed
+  --mixed (default)
   --hard
+
+git reset --soft <commit id>
+
+git clean -n
+git clean -f
 
 //git rebase
 
