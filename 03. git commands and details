@@ -108,6 +108,9 @@ git reset --soft <commit id>
 git clean -n
 git clean -f
 
+git branch -d (delete branch should be merged)
+git branch -D (forcefully delete)
+
 //git rebase
 
 
