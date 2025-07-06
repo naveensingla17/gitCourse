@@ -111,6 +111,11 @@ git clean -f
 git branch -d (delete branch should be merged)
 git branch -D (forcefully delete)
 
+// git stash (temparory memory storage)
+git stash list
+git stash
+git stash apply <stash id>
+
 //git rebase
 
 
