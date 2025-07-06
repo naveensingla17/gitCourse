@@ -1,0 +1,2 @@
+Q1. Can you restore, deleted branch ?
+Ans: No, but you can refer details or history using git reflog, git log, git show, etc.
