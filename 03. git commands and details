@@ -115,6 +115,7 @@ git branch -D (forcefully delete)
 git stash list
 git stash
 git stash apply <stash id>
+git stash drop stash{2}
 
 //git rebase
 
