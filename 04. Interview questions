@@ -1,2 +1,7 @@
 Q1. Can you restore, deleted branch ?
 Ans: No, but you can refer details or history using git reflog, git log, git show, etc.
+
+Q2. Difference in below commands
+  git config --global
+  git config --local
+  git config --system
