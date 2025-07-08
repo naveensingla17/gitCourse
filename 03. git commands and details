@@ -122,6 +122,8 @@ git stash drop stash{2}
 
 //git cherry-pick
 
+// git rm
+git mv
 
 //forking
 
