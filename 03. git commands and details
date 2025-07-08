@@ -118,7 +118,7 @@ git stash apply <stash id>
 git stash drop stash{2}
 
 //git rebase
-
+to add other branch history or commit id's into new branch
 
 //git cherry-pick
 
