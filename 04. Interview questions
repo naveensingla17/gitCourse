@@ -5,3 +5,32 @@ Q2. Difference in below commands
   git config --global
   git config --local
   git config --system
+
+Q3. Describe different stages in git
+Ans: Workspace - before git add command
+Staging Area - Modified but not commit
+Local Repo - After commit but on local repo not online yet as not done git push yet
+
+Q4. What will happen when you run git init ?
+Ans: .git folder will be created
+
+Q5. Use and benefit of git ?
+Ans: 
+1. Collabrator development or Source code management
+2. VCS (Version control)
+3. Branches and merge
+4. VCS tracking - Hash ID
+5. Security 
+    SHA1
+    Checksum
+6. Integration
+    GitHub / GitLab
+    CI / CD
+    Github Actions
+    Webhooks
+
+Q6. Sometime branches in name as master or main, why is that ?
+Ans: public git - master
+private git - main
+
+Q7. 
