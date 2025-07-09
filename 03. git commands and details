@@ -10,6 +10,10 @@ git --version
 // mkdir /opt/myreop
 cd /opt/myrepo
 
+git init
+
+tree .git
+
 git config --global user.name "Naveen"
 git config --global user.email "naveen@gmail.com"
 git config --list
