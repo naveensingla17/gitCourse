@@ -52,3 +52,27 @@ Q10. How do you create branch
 Ans:
 git checkout -b feat/cgc-0000/update-threshold
 git branch feat/cgc-0000/update-threshold
+
+Q11. How do you check logs ?
+Ans: git log
+git log --oneline
+git show <commmit id>
+git reflog
+
+Q12. You added a file but git not processing it, what can be the issue ?
+Ans: .gitignore
+
+Q13. How to rename branch say "master" branch ?
+Ans: git branch -M master
+
+Q14: What for "git remote" used?
+Ans: git remote show origin
+git remote 
+
+Q15: git push
+Ans: git push origin master
+
+Q16: diff in git branch and git branch -r
+Ans:
+
+Q17: 
