@@ -35,3 +35,20 @@ private git - main
 
 Q7. Latest version of git ?
 Ans: 2.50.0
+
+Q8. How do you undo from stage area to workspace ?
+Ans: git rm --cached <filenam>  # for first time
+
+Stage --> Workspace (Restore)
+git restore --staged <filename>
+
+Local Repo --> Workspace (Revert)
+
+Q9. Can we do git checkout on commit id ?
+Ans: Yes
+git checkout <Commit ID>
+
+Q10. How do you create branch
+Ans:
+git checkout -b feat/cgc-0000/update-threshold
+git branch feat/cgc-0000/update-threshold
