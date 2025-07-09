@@ -1,18 +1,18 @@
 // Linux
-yum install git -y 
+1. yum install git -y 
 
 //ubuntu
 apt install git
 
 // git version
-git --version
+2. git --version
 
 // mkdir /opt/myreop
-cd /opt/myrepo
+3. cd /opt/myrepo
 
-git init
+4. git init
 
-tree .git
+5. tree .git
 
 git config --global user.name "Naveen"
 git config --global user.email "naveen@gmail.com"
