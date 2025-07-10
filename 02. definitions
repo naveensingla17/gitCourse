@@ -3,3 +3,10 @@ integration tools --> gitlab / github / bamboo (atlacean)
 CI / CD
 Github actions
 provides Webhook
+
+Command line tool of Linux
+github / gitlab - remote repo
+
+Source code management
+  . CVCS - centralised versioning control system (everything online and slow)
+  . DVCS - distributed versioning control system
